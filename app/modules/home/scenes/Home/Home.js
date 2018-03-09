@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 
 import styles from "./styles"
 
-import { actions as auth, theme } from "../../index"
+import { actions as auth, theme } from "../../../auth/index"
 const { signOut } = auth;
 
 const { color } = theme;
@@ -25,7 +25,7 @@ class Home extends React.Component {
     }
 
     onSuccess() {
-        Actions.replace("Auth")
+        Actions.reset("Auth")
     }
 
     onError(error) {

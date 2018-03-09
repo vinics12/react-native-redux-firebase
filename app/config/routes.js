@@ -11,8 +11,6 @@ import Register from '../modules/auth/scenes/Register';
 import CompleteProfile from '../modules/auth/scenes/CompleteProfile';
 import Login from '../modules/auth/scenes/Login';
 import ForgetPassword from '../modules/auth/scenes/ForgetPassword';
-
-//Home Scenes
 import Home from '../modules/home/scenes/Home';
 
 //Import Store, actions
